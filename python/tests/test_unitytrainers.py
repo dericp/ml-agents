@@ -112,8 +112,13 @@ dummy_curriculum = json.loads('''{
     "measure" : "reward",
     "thresholds" : [10, 20, 50],
     "min_lesson_length" : 3,
+<<<<<<< HEAD
     "signal_smoothing" : true,
     "parameters" :
+=======
+    "signal_smoothing" : true, 
+    "parameters" : 
+>>>>>>> 6541b80... Updating tests for refactored curriculum.
     {
         "param1" : [0.7, 0.5, 0.3, 0.1],
         "param2" : [100, 50, 20, 15],
@@ -124,8 +129,13 @@ bad_curriculum = json.loads('''{
     "measure" : "reward",
     "thresholds" : [10, 20, 50],
     "min_lesson_length" : 3,
+<<<<<<< HEAD
     "signal_smoothing" : false,
     "parameters" :
+=======
+    "signal_smoothing" : false, 
+    "parameters" : 
+>>>>>>> 6541b80... Updating tests for refactored curriculum.
     {
         "param1" : [0.7, 0.5, 0.3, 0.1],
         "param2" : [100, 50, 20],
